@@ -2,19 +2,55 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+      * {
+        font-family: "Big Shoulders Text", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .flex-container {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .horizontal {
+        flex-direction: row;
+      }
+
+      .vertical {
+        flex-direction: column;
+      }
+
+      .flex-item {
+        align-self: center;
+        /* center each flex item along the cross axis */
+        text-align: center;
+        /* horizontally center content within flex item */
+      }
+    </style>
   </head>
   <body>
-    <div style="display: flex, flex-direction: column">
-      <header>Franco Reyes for 38th Ward Alderman</header>
+    <header>
+      <h1>Franco Reyes for 38th Ward Alderman</h1>
+    </header>
+    <div class="flex-container vertical">
       <img src="images/FrancoReyesPortrait.png"></img>
       <div>
-        <p>Hi, I'm Franco and I ran for alderman of the 38th Ward in the 2023 Chicago Elections.</p>
-        <p>I'd like to thank you for your support during my campaign. At the moment I have no plans on running for office again but I hope that in the future we'll be able to work together to address the issues that Chicago faces</p>
-        <p>You can help move Chicago forward by volunteering with <a href="https://abundantchicago.org">Abundant Chicago</a></p>
-        <p>The following below was my platform for the 2023 election.</p>
+        <h2>About</h2>
         <p>
-        Public Safety
+          Hi, I'm Franco and I ran for alderman of the 38th Ward in the 2023 Chicago Elections.
+          I'd like to thank you for your support during my campaign. At the moment I have no plans on running for office again but I hope that in the future we'll be able to work together to address the issues that Chicago faces.
+          You can help move Chicago forward by volunteering with <a href="https://abundantchicago.org">Abundant Chicago</a>
+          The following below was my platform for the 2023 election.
+        </p>
+        <h2>Public Safety</h2>
 
+        <p>
         Work with CPD to increase patrols in our ward by:
 
         Expand The Crisis Assistance Response and Engagement (CARE) program leaving mental health issues to mental health professionals from the CFD and Chicago Department of Health. This will free up CPD resources to better patrol and address violent crimes.
@@ -31,9 +67,9 @@
         Provide funding for mental health services
         Work closely with the elected Police District Council members, community organizations, and the community to identify other issues that need addressing.
         </p>
-        <p>
-        Public Transit and Traffic infrastructure (Transit plan approved by Commuters Take Action)
+        <h2>Public Transit and Traffic infrastructure (Transit plan approved by Commuters Take Action)</h2>
 
+        <p>
         Improve Public Transit by:
 
         Work to keep the CTA accountable for ghost buses, late buses/trains.
@@ -52,9 +88,9 @@
         Add pedestrian islands to assist crossing big streets such as Irving Park
         Allow multi-use developments on main avenues that favor storefronts with apartments
         </p>
-        <p>
-        Efficient and Proactive City Services
+        <h2>Efficient and Proactive City Services</h2>
 
+        <p>
         Take a proactive approach to delivering city services by:
 
         Ensure city services requests are accessible via online forms so that you don't have to make a trip to the Alderman's office.
@@ -72,16 +108,16 @@
         Cut red tape for business owners so they can spend more time focusing on their business and less on paperwork as well as encouraging more community events.
         Hosting monthly ward meetings to keep in touch with the community
         </p>
-        <p>
-        Support Local Businesses
+        <h2>Support Local Businesses</h2>
 
+        <p>
         Digitizing and Streamlining forms
         Maintaining a strong relationship with business owners by hosting bi-monthly meetings where they can express specific issues and concerns to be addressed.
         Working with local Chamber of Commerces closely to make sure that they are being properly supported
         </p>
-        <p>
-        Protect Civil Liberties and Protect our Immigrant Communities
+        <h2>Protect Civil Liberties and Protect our Immigrant Communities</h2>
 
+        <p>
         As our nation sees attacks on the rights of the LGBT and women we need to ensure that Chicago safeguards them. I will support legislation that ensures Chicago is a safe and welcoming city to all. In addition I will:
 
         Work with community leaders
@@ -90,18 +126,18 @@
         Defend the rights of LGBTQ community in our ward and in Chicago
         Support resources to help immigrants in our community
         </p>
-        <p>
-        Election Reforms
+        <h2>Election Reforms</h2>
 
+        <p>
         Increase voter turnout, create a fair playing field and cut costs associated with running an election by
 
         Implementing Ranked Choice Voting(RCV) so that elections are done after a single day
         Move election day to align with general elections in November
         Use savings from consolidating elections and ending runoff elections to publicly fund elections reducing outside influence.
         </p>
-        <p>
-        Affordable housing
+        <h2>Affordable housing</h2>
 
+        <p>
         Work to maintain affordable housing for all in ward and city by:
 
         Prohibiting corporate landlords from bulk buying residences
@@ -111,28 +147,28 @@
         Expanding the Additional Dwelling Unit pilot citywide
         Revise the Affordable Requirements Ordinance (ARO) to include 30% affordable homes in developments over 10 units and prohibit affordable units from being built off-site.
         </p>
-        <p>
-        Worker's Rights
+        <h2>Worker's Rights</h2>
 
+        <p>
         Ensure that the minimum wage keeps up with inflation
         Support Project Labor Agreements(PLA) for city projects that use union labor
         Support employee's rights to unionize
         </p>
-        <p>
-        Education
+        <h2>Education</h2>
 
+        <p>
         Ensure that no public funds are used for private schools
         Fund after-school programs at CPS and at Chicago Parks
         A moratorium on new Charter Schools
         Support wall-to-wall AP/IB programs at our high schools
         </p>
-        <p>
-        Listening
+        <h2>Listening</h2>
 
+        <p>
         I will always be open to questions, comments. If you have any concerns I encourage you to fill out the comment form.
         </p>
       </div>
-      <div>Copyright 2024</div>
     </div>
+    <footer>Copyright 2024</footer>
   </body>
 </html>
